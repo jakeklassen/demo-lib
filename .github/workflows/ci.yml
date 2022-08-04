@@ -33,7 +33,7 @@ jobs:
       - name: Install
         run: nci
 
-      - name: Link
+      - name: Lint
         run: nr -C packages/demo-lib lint
 
       - name: Build
