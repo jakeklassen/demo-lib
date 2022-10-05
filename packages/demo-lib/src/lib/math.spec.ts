@@ -1,10 +1,16 @@
 import { describe, expect, it } from 'vitest';
-import { sum } from './math.js';
+import { multiply, sum } from './math.js';
 
 describe('Math', () => {
   describe('sum', () => {
     it('should add numbers', () => {
       expect(sum(1, 2, 3)).toBe(6);
+    });
+  });
+
+  describe('multiply', () => {
+    it('should multiply numbers', () => {
+      expect(multiply(1, 2, 3)).toBe(6);
     });
   });
 });
