@@ -12,5 +12,9 @@ describe('Math', () => {
     it('should multiply numbers', () => {
       expect(multiply(1, 2, 3)).toBe(6);
     });
+
+    it('should multiply numbers with 1', () => {
+      expect(multiply(1, 2, 3, 1)).toBe(6);
+    });
   });
 });
